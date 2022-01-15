@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Poppins:wght@500&display=swap");
+
+/*---------------------------------
+Common CSS Styles Started
+------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------
+Hero Menu Styles Started
+-------------------------------- */
+nav .logo {
+    color: #3a3a3a;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 0 32px;
+}
+
+nav ul li a:hover {
+    color: #e02c6d;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Zen Antique Soft", serif;
+    margin: 10px;
+}
+
+.hero-h1 {
+    color: #3a3a3a;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+}
+.hero-h2 {
+    color: #0a0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+
+.hero-p {
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------ 
+     Hero-Banner Part Styles 
+-----------------------------------  */
+
+.hero-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img img {
+    width: 80%;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+/* ---------Button Styles Part Started-------------*/
+button {
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: left;
+}
+
+button i {
+    padding-left: 5px;
+}
+
+.pre-btn {
+    background-color: #e02c6d;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.pre-btn:hover {
+    background-color: rgb(16, 6, 26);
+    color: #f9f9ff;
+    transform: scale(1.1);
+}
+
+/*---------Button Styles Part End--------*/
+
+/* ---------------------------------------------
+        Main- Section Styles Started
+ ---------------------------------------------*/
+.sec-title {
+    color: #3a3a3a;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.item-price {
+    color: #000000de;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.item-title {
+    color: #18191f;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+    margin: 20px;
+    padding: 60px;
+}
+
+.product-item {
+    box-shadow: 0px 0px 40px 0px #00000026;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.item-dec {
+    color: #787885;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.018em;
+    text-align: left;
+}
+
+.par-rating {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #5e6366;
+}
+
+.link-text {
+    float: right;
+    color: #e02c6dde;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-right: 75px;
+}
+
+.link-text a {
+    color: #e02c6dde;
+}
+
+.link-text i {
+    color: #e02c6dde;
+}
+
+/*-------------- Star Rating Styles Started ------------*/
+.fa-star {
+    font-size: 10px;
+}
+
+.fa-star-half-alt {
+    font-size: 10px;
+}
+
+.fa-star,
+.filled {
+    color: #fb8200;
+}
+
+.fa-star-half-alt,
+.empty {
+    color: #fb8200;
+}
+
+/*-------------- Star Rating Styles End ------------*/
+
+/* ----------------------------------
+        Main- Section Styles End
+ -------------------------------------*/
+
+/* -------------------------------
+ Footer Section Styles Started 
+ ------------------------------------*/
+
+footer {
+    padding: 50px;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 27);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foot-title h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: #111;
+}
+
+.social-icon a i {
+    color: #ffffff;
+    height: 32px;
+    width: 32px;
+    left: 144px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.copyright-text p {
+    color: #d9dbe1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+/*-------------------
+    Footer Section Styles End 
+*/
+
+/*----------------------------------------------
+     Mobile Responsive with Media Queries
+-------------------------------------------- */
+
+/*----------------------------------------
+     Media Queries Styles Started 
+-------------------------------------------*/
+@media (max-width: 688px) {
+    header ul {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container {
+        display: block;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    .hero-img img {
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .item-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0;
+        grid-gap: 0px;
+        margin: 8px;
+    }
+
+    .product-item {
+        margin-bottom: 20px;
+    }
+
+    nav .logo {
+        margin-left: 0px;
+    }
+}
